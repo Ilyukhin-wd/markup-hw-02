@@ -51,6 +51,15 @@ header{
     letter-spacing: 0.02em;
 }
 .contacts{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 410px;
+    height: 108px;
+}
+.list-contacts{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -116,7 +125,7 @@ p{
     height: 732px;
     background-color: #f4f4fd;
 }
-.team{
+.list-item{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,6 +138,15 @@ p{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
+.avatar-desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 232px;
+    height: 56px;
+}
 .name{
     font-weight: 500;
     font-size: 20px;
@@ -140,10 +158,27 @@ p{
     width: 1128px;
     height: 1000px;
 }
-.case{
+.row{
+    width: 1128px;
+    height: 420px;
+}
+.portfolio-list-item{
     width: 360px;
     height: 420px;
     background-color: #fff;
+}
+.pic-desc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+     border-right: 1px solid var(--cornflower);
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
 }
 footer{
     width: 1440px;
@@ -154,6 +189,7 @@ footer{
     width: 264px;
     height: 112px;
 }
+
 .info>p{
     color: #f4f4fd;;
 }
