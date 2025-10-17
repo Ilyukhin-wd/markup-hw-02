@@ -136,3 +136,12 @@ h2{
     letter-spacing: 0.02em;
     text-align: center;
 }
+.portfolio{
+    width: 1128px;
+    height: 1000px;
+}
+.case{
+    width: 360px;
+    height: 420px;
+    background-color: #fff;
+}
