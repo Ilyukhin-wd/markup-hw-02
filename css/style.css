@@ -9,6 +9,13 @@ ul, ol{
 a{
     text-decoration-line: none;
 }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 header{
     width: 1440px;
     height: 72px;
@@ -29,7 +36,7 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-span{
+.second-color{
     color: #4d5ae5;
 }
 .nav{
@@ -78,7 +85,7 @@ button{
     letter-spacing: 0.04em;
     color: #fff;
 }
-button:hover{
+button:hover, button:focus{
     font-weight: 600;
     width: 170px;
     height: 51px;
@@ -109,13 +116,6 @@ p{
     height: 732px;
     background-color: #f4f4fd;
 }
-h2{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
 .team{
     display: flex;
     align-items: center;
@@ -144,4 +144,16 @@ h2{
     width: 360px;
     height: 420px;
     background-color: #fff;
+}
+footer{
+    width: 1440px;
+    height: 312px;
+    background-color: #2e2f42;;
+}
+.info{
+    width: 264px;
+    height: 112px;
+}
+.info>p{
+    color: #f4f4fd;;
 }
