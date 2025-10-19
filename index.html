@@ -20,36 +20,39 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a class="link-logo" href="">
-          <p><span class="second-color">Web</span>Stuio</p>
+    <header class="page-header">
+      <div class="header-container">
+        <a class="header-logo-link" href="">
+          <span class="second-color">Web</span>Studio
         </a>
-      </div>
 
-      <div class="nav">
-        <ul class="list-nav">
-          <li>
-            <a href="">Studio</a>
-          </li>
-          <li>
-            <a href="">Portfolio</a>
-          </li>
-          <li>
-            <a href="">Contacts</a>
-          </li>
-        </ul>
-      </div>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="nav-list-item">
+              <a href="">Studio</a>
+            </li>
 
-      <div class="contacts">
-        <ul class="list-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
+            <li class="nav-list-item">
+              <a href="">Portfolio</a>
+            </li>
+
+            <li class="nav-list-item">
+              <a href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="header-contacts">
+          <ul class="header-contacts-list">
+            <li class="contacts-list-item">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+
+            <li class="contacts-list-item">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
@@ -60,181 +63,189 @@
       </section>
 
       <section class="feature">
-        <h2>Feature</h2>
-        <div class="text">
-          <h3>Strategy</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </div>
-        <div class="text">
-          <h3>Punctuality</h3>
-          <p>
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-        </div>
-        <div class="text">
-          <h3>Diligence</h3>
-          <p>
-            Research and confirm brands with the strongest digital growth
-            opportunities and minimize risk.
-          </p>
-        </div>
-        <div class="text">
-          <h3>Technologies</h3>
-          <p>
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
+        <div class="container">
+          <h2 class="section-title">Feature</h2>
+          <ul class="feature-list">
+            <li class="feature-item">
+              <h3>Strategy</h3>
+              <p class="feature-desc">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3>Punctuality</h3>
+              <p class="feature-desc">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3>Diligence</h3>
+              <p class="feature-desc">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="feature-item">
+              <h3>Technologies</h3>
+              <p class="feature-desc">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="our-team">
-        <h2>Our team</h2>
-        <ul class="list-our-team">
-          <li class="list-item">
-            <img
-              class="avatar"
-              src="./images/ourteam/ourteam1.jpg"
-              alt="our Product Designer"
-              width="264"
-            />
-            <div class="avatar-desc">
-              <p class="name">Mark Guerrero</p>
-              <p>Product Designer</p>
-            </div>
-          </li>
+        <div class="container">
+          <h2 class="section-title">Our team</h2>
+          <ul class="list-our-team">
+            <li class="team-item">
+              <img
+                class="avatar"
+                src="./images/ourteam/ourteam1.jpg"
+                alt="Portrait of Mark Guerrero, Product Designer"
+                width="264"
+              />
+              <div class="avatar-desc">
+                <p class="name">Mark Guerrero</p>
+                <p>Product Designer</p>
+              </div>
+            </li>
 
-          <li class="list-item">
-            <img
-              class="avatar"
-              src="./images/ourteam/ourteam2.jpg"
-              alt="our Frontend Developer"
-              width="264"
-            />
-            <div class="avatar-desc">
-              <p class="name">Tom Ford</p>
-              <p>Frontend Developer</p>
-            </div>
-          </li>
+            <li class="team-item">
+              <img
+                class="avatar"
+                src="./images/ourteam/ourteam2.jpg"
+                alt="Portrait of Tom Ford, Frontend Developer"
+                width="264"
+              />
+              <div class="avatar-desc">
+                <p class="name">Tom Ford</p>
+                <p>Frontend Developer</p>
+              </div>
+            </li>
 
-          <li class="list-item">
-            <img
-              class="avatar"
-              src="images/ourteam/ourteam3.jpg"
-              alt="our Marketing Specialist"
-              width="264"
-            />
-            <div class="avatar-desc">
-              <p class="name">Camila Garcia</p>
-              <p>Marketing</p>
-            </div>
-          </li>
+            <li class="team-item">
+              <img
+                class="avatar"
+                src="./images/ourteam/ourteam3.jpg"
+                alt="Portrait of Camila Garcia, Marketing Specialist"
+                width="264"
+              />
+              <div class="avatar-desc">
+                <p class="name">Camila Garcia</p>
+                <p>Marketing</p>
+              </div>
+            </li>
 
-          <li class="list-item">
-            <img
-              class="avatar"
-              src="./images/ourteam/ourteam4.jpg"
-              alt="our UI designer"
-              width="264"
-            />
-            <div class="avatar-desc">
-              <p class="name">Daniel Wilson</p>
-              <p>Ui Designer</p>
-            </div>
-          </li>
-        </ul>
+            <li class="team-item">
+              <img
+                class="avatar"
+                src="./images/ourteam/ourteam4.jpg"
+                alt="Portrait of Daniel Wilson, UI designer"
+                width="264"
+              />
+              <div class="avatar-desc">
+                <p class="name">Daniel Wilson</p>
+                <p>Ui Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="portfolio">
-        <h2>Our Portfolio</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio1.jpg"
-              alt="examples of banking app on the phone"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p>Banking App</p>
-              <p>App</p>
-            </div>
-          </li>
+        <div class="container">
+          <h2 class="section-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio1.jpg"
+                alt="examples of banking app on the phone"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p>Banking App</p>
+                <p>App</p>
+              </div>
+            </li>
 
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio2.jpg"
-              alt="cashless payment with phone"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p class="name">Cashless Payment</p>
-              <p>Marketing</p>
-            </div>
-          </li>
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio2.jpg"
+                alt="cashless payment with phone"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p class="name">Cashless Payment</p>
+                <p>Marketing</p>
+              </div>
+            </li>
 
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio3.jpg"
-              alt="laptop and phone with meditation app"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p class="name">Meditation App</p>
-              <p>App</p>
-            </div>
-          </li>
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio3.jpg"
+                alt="laptop and phone with meditation app"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p class="name">Meditation App</p>
+                <p>App</p>
+              </div>
+            </li>
 
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio4.jpg"
-              alt="driver with taxi app on the phone"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p class="name">Taxi Service</p>
-              <p>Marketing</p>
-            </div>
-          </li>
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio4.jpg"
+                alt="driver with taxi app on the phone"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p class="name">Taxi Service</p>
+                <p>Marketing</p>
+              </div>
+            </li>
 
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio5.jpg"
-              alt="examples of screen pictures on the phone"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p class="name">Screen Illustrations</p>
-              <p>Design</p>
-            </div>
-          </li>
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio5.jpg"
+                alt="examples of screen pictures on the phone"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p class="name">Screen Illustrations</p>
+                <p>Design</p>
+              </div>
+            </li>
 
-          <li class="portfolio-list-item">
-            <img
-              class="pic"
-              src="./images/ourportfolio/ourportfolio6.jpg"
-              alt="women with headphones looking at phone"
-              width="360"
-            />
-            <div class="pic-desc">
-              <p class="name">Online Courses</p>
-              <p>Marketing</p>
-            </div>
-          </li>
-        </ul>
+            <li class="portfolio-item">
+              <img
+                class="pic"
+                src="./images/ourportfolio/ourportfolio6.jpg"
+                alt="women with headphones looking at phone"
+                width="360"
+              />
+              <div class="pic-desc">
+                <p class="name">Online Courses</p>
+                <p>Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer>
-      <div class="info">
-        <div class="logo">
+      <div class="container">
+        <div class="footer-logo">
           <a href="">
             <p><span class="second-color">Web</span>Studio</p>
           </a>
