@@ -1,0 +1,45 @@
+  body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #ffffff;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.header-logo-link,
+.footer-logo-link{
+    font-family: "Raleway",sans-serif;
+    text-transform: uppercase;
+}
+
+.header-container{
+   width: 1440px;
+}
+
+.header-logo-link{
+   
+}
+   
+
+span{
+    color: #4d5ae5;;
+}
+
+.header-nav{
+    
+}
+  
+
+.header-contacts{
+    
+}
