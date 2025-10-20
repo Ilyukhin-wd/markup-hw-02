@@ -12,8 +12,8 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -29,15 +29,15 @@
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="nav-list-item">
-              <a href="">Studio</a>
+              <a class="nav-link-studio" href="">Studio</a>
             </li>
 
             <li class="nav-list-item">
-              <a href="">Portfolio</a>
+              <a class="nav-link-portfolio" href="">Portfolio</a>
             </li>
 
             <li class="nav-list-item">
-              <a href="">Contacts</a>
+              <a class="nav-link-contacts" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -45,11 +45,15 @@
         <address class="header-contacts">
           <ul class="header-contacts-list">
             <li class="contacts-list-item">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="header-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
 
             <li class="contacts-list-item">
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="header-contacts-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
@@ -64,7 +68,7 @@
 
       <section class="features">
         <div class="container">
-          <h2 class="section-title">Features</h2>
+          <h2 class="features-title">Features</h2>
           <ul class="features-list">
             <li class="features-item">
               <h3>Strategy</h3>
@@ -169,7 +173,7 @@
                 width="360"
               />
               <div class="pic-desc">
-                <p>Banking App</p>
+                <p class="name">Banking App</p>
                 <p>App</p>
               </div>
             </li>
